@@ -13,6 +13,7 @@ int main(){
         return 1;
     }
 
+    // ISTO AQUI NAO VAI DAR CERTO SE O ARQUIVO NAO TIVER EXATAMENTE 5 LINHAS
     for(int i=0;i<5;i++) {
 
       fscanf(arquivo,"%f",&vetor[i]);
